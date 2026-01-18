@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BERKAH DENTAL | Praktek Perawat Gigi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #5f2c82, #49a09d);
+            color: #fff;
+        }
+
+        header {
+            padding: 30px 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        nav a {
+            margin-left: 25px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #dcd6f7;
+        }
+
+        .hero {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 80px;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .hero-text h2 {
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .hero-text p {
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 25px;
+            color: #eaeaff;
+        }
+
+        .hero-text span {
+            font-weight: 600;
+            color: #ffd6ff;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #8e2de2, #4a00e0);
+            color: #fff;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+        }
+
+        .hero-img img {
+            width: 100%;
+            border-radius: 25px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.35);
+        }
+
+        section {
+            padding: 80px;
+            background: #ffffff;
+            color: #333;
+        }
+
+        section h3 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 50px;
+            color: #5f2c82;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+       .card {
+    background: linear-gradient(135deg, #f3f0ff, #eef7ff);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.3s;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+        }
+
+        .card img {
+            width: 80px;
+            margin-bottom: 20px;
+        }
+
+        .card h4 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #4a00e0;
+        }
+
+        .location-card {
+    background: linear-gradient(135deg, #ffffff, #f3f0ff);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.location-info p {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.map-box {
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+
+        footer {
+            background: linear-gradient(135deg, #4a00e0, #5f2c82);
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+
+        @media (max-width: 900px) {
+            .hero {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>BERKAH DENTAL</h1>
+   
+</header>
+
+<div class="hero">
+    <div class="hero-text">
+        <h2>Praktek Mandiri Terapis<br><span> Gigi & Mulut </span></h2>
+        <p>
+            BERKAH DENTAL merupakan Praktek Mandiri Terapis Gigi dan Mulut yang berkomitmen memberikan pelayanan kesehatan gigi dan mulut secara profesional, aman, dan berorientasi pada kenyamanan pasien. Setiap tindakan dilakukan dengan mengutamakan standar pelayanan kesehatan, kebersihan alat, serta prosedur yang sesuai dengan ketentuan yang berlaku.
+Pelayanan ditangani secara langsung oleh terapis gigi dan mulut yang berpengalaman, dengan pendekatan yang ramah, komunikatif, dan edukatif, sehingga pasien mendapatkan pemahaman yang baik mengenai kondisi serta perawatan kesehatan gigi dan mulutnya.
+        </p>
+    </div>
+    <div class="hero-img">
+        <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5" alt="Dental Clinic">
+    </div>
+</div>
+<section id="layanan">
+    <h3>Layanan Kami</h3>
+    <div class="services">
+
+        <a href="karang_gigi.html" style="text-decoration:none;color:inherit;">
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/512/3209/3209073.png" alt="Scaling">
+                <h4>Pembersihan Karang Gigi (Scaling)</h4>
+                <p>Pembersihan karang gigi untuk menjaga kesehatan gigi dan gusi serta mencegah peradangan.</p>
+            </div>
+        </a>
+
+        <a href="pencabutan_anak.html" style="text-decoration:none;color:inherit;">
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/512/2491/2491901.png" alt="Gigi Anak">
+                <h4>Pencabutan Gigi Susu / Anak</h4>
+                <p>Pelayanan pencabutan gigi susu pada anak dengan metode yang aman dan nyaman.</p>
+            </div>
+        </a>
+
+        <a href="pencabutan_gigi.html" style="text-decoration:none;color:inherit;">
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/512/3461/3461914.png" alt="Pencabutan Permanen">
+                <h4>Pencabutan Gigi Permanen (Kasus TTT)</h4>
+                <p>Pencabutan gigi permanen pada kasus tertentu sesuai indikasi dan standar pelayanan.</p>
+            </div>
+        </a>
+        
+        <a href="tambal_gigi.html" style="text-decoration:none;color:inherit;">
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/3105/3105807.png" alt="Tambal Gigi">
+            <h4>Tambal Gigi (Kasus TTT)</h4>
+            <p>Perawatan tambal gigi pada kasus tertentu untuk mengembalikan fungsi gigi.</p>
+        </div>
+        </a>
+
+        <a href="edukasi.html" style="text-decoration:none;color:inherit;">
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/2785/2785482.png" alt="Edukasi">
+            <h4>Pemeriksaan & Edukasi</h4>
+            <p>Pemeriksaan kesehatan gigi dan mulut disertai edukasi perawatan gigi yang benar.</p>
+        </div>
+</a>
+    </div>
+</section>
+
+
+<section id="lokasi" style="background:#ffffff;">
+    <h3>Lokasi Praktek</h3>
+
+    <div style="
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        gap:40px;
+        max-width:1100px;
+        margin:auto;
+        align-items:center;
+    " class="location-card">
+
+        <!-- Info Lokasi -->
+        <div class="location-info" style="color:#333;">
+            <p><strong>📍 BERKAH DENTAL</strong></p>
+            <p>Praktek Mandiri Terapis Gigi & Mulut</p>
+            <p>Desa: <strong> Padang Sappa</strong></p>
+            <p>Kecamatan: <strong>Ponrang</strong></p>
+            <p>Kabupaten: <strong> Luwu</strong></p>
+            <p>Provinsi: <strong>Sulawesi Selatan</strong></p>
+
+            <a  href="https://www.google.com/maps/search/?api=1&query=Q883+63W Berkah Dental ( Praktek Gigi Mandiri), Padang Sappa, Kec. Ponrang, Kabupaten Luwu, Sulawesi Selatan"
+  target="_blank"
+  class="btn"
+  style="margin-top:20px;"
+>
+    Buka di Google Maps
+</a>
+
+            </a>
+        </div>
+
+        <!-- Map -->
+        <div class="map-box">
+            <iframe 
+                src="https://www.google.com/maps?q=-5.147665,119.432732&z=15&output=embed"
+                width="100%" 
+                height="100%" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+
+    </div>
+</section>
+
+<section id="kontak" style="background: linear-gradient(135deg, #f3f0ff, #eef7ff);">
+    <div style="
+        display:grid;
+        grid-template-columns: 0.8fr 1.2fr;
+        gap:40px;
+        align-items:center;
+        max-width:1100px;
+        margin:auto;
+    ">
+        <!-- Gambar -->
+        <div style="text-align:center;">
+            <img 
+                src="image.png" 
+                alt="Dental Care"
+                style="
+                    width:70%;
+                    max-width:250px;
+                    border-radius:12px;
+                    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+                ">
+        </div>
+
+        
+
+        <!-- Kontak -->
+        <div style="color:#333;">
+            <h3 style="text-align:left;color:#4a00e0;">Kontak & Informasi</h3>
+            <p><strong>BERKAH DENTAL</strong></p>
+            <p>Perawat Gigi: Muhammad Irsal, S.Tr.Kes</p>
+            <p>📍 Desa        : <em>Padang Sappa</em></p>
+            <p>⏰ Jam Praktek : <em>10.00 - 20.00 WITA</em></p>
+            <p>📞 WhatsApp    : <em>0852-4280-5547</em></p>
+        </div>
+    </div>
+</section>
+
+
+<footer id="kontak">
+    <p><strong>BERKAH DENTAL</strong></p>
+    <p>Perawat Gigi: Muhammad Irsal, S.Tr.Kes</p>
+    <p>&copy; 2026 BERKAH DENTAL. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

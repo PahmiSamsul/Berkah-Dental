@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Pemeriksaan & Edukasi | Berkah Dental</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ICON -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+body{
+    margin:0;
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(135deg,#1f1c2c,#928dab);
+    color:#333;
+}
+.container{
+    max-width:1100px;
+    margin:80px auto;
+    background:#ffffff;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 25px 60px rgba(0,0,0,.35);
+}
+
+/* HERO */
+.hero{
+    position:relative;
+}
+.hero img{
+    width:100%;
+    height:380px;
+    object-fit:cover;
+}
+.hero-overlay{
+    position:absolute;
+    inset:0;
+    background:linear-gradient(to right,rgba(0,0,0,.7),rgba(0,0,0,.2));
+    display:flex;
+    align-items:center;
+    padding:40px;
+}
+.hero-overlay h1{
+    color:#fff;
+    font-size:36px;
+    max-width:600px;
+    line-height:1.3;
+}
+
+/* CONTENT */
+.content{
+    padding:50px;
+}
+.intro{
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:40px;
+}
+
+/* INFO GRID */
+.info-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    margin-bottom:50px;
+}
+.info-box{
+    background:#f9f9f9;
+    border-radius:18px;
+    padding:30px;
+    text-align:center;
+    transition:.3s;
+}
+.info-box:hover{
+    transform:translateY(-6px);
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+.info-box i{
+    font-size:40px;
+    color:#4a00e0;
+    margin-bottom:15px;
+}
+.info-box h3{
+    margin-bottom:10px;
+    color:#333;
+}
+.info-box p{
+    font-size:15px;
+    line-height:1.6;
+}
+
+/* IMAGE SECTION */
+.image-section{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:30px;
+    align-items:center;
+    margin-bottom:50px;
+}
+.image-section img{
+    width:100%;
+    border-radius:20px;
+    box-shadow:0 15px 40px rgba(0,0,0,.2);
+}
+.image-section p{
+    font-size:17px;
+    line-height:1.8;
+}
+
+/* BUTTON */
+.btn{
+    display:inline-block;
+    padding:14px 35px;
+    background:linear-gradient(135deg,#8e2de2,#4a00e0);
+    color:#fff;
+    text-decoration:none;
+    border-radius:35px;
+    font-weight:600;
+    transition:.3s;
+}
+.btn:hover{
+    transform:scale(1.05);
+    box-shadow:0 10px 25px rgba(74,0,224,.5);
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+    .hero-overlay h1{
+        font-size:26px;
+    }
+    .image-section{
+        grid-template-columns:1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- HERO -->
+    <div class="hero">
+        <img src="i.png" alt="Pemeriksaan dan Edukasi Gigi">
+        <div class="hero-overlay">
+            <h1>Pemeriksaan & Edukasi Kesehatan Gigi untuk Senyum Lebih Sehat</h1>
+        </div>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="content">
+
+        <p class="intro">
+            <strong>Pemeriksaan & Edukasi Gigi</strong> merupakan langkah awal
+            untuk menjaga kesehatan gigi dan mulut secara menyeluruh.
+            Melalui pemeriksaan rutin dan edukasi yang tepat,
+            pasien dapat memahami kondisi giginya serta cara perawatan
+            yang benar untuk mencegah masalah di kemudian hari.
+        </p>
+
+        <!-- INFO GRID -->
+        <div class="info-grid">
+            <div class="info-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <h3>Pemeriksaan Menyeluruh</h3>
+                <p>Mengetahui kondisi gigi dan mulut secara dini sebelum muncul keluhan.</p>
+            </div>
+
+            <div class="info-box">
+                <i class="fa-solid fa-chalkboard-user"></i>
+                <h3>Edukasi yang Mudah Dipahami</h3>
+                <p>Penjelasan sederhana tentang cara merawat gigi dengan benar setiap hari.</p>
+            </div>
+
+            <div class="info-box">
+                <i class="fa-solid fa-shield-heart"></i>
+                <h3>Pencegahan Lebih Baik</h3>
+                <p>Membantu mencegah gigi berlubang, karang gigi, dan penyakit gusi.</p>
+            </div>
+        </div>
+
+        <!-- IMAGE SECTION -->
+        <div class="image-section" style="max-width:800px;margin:40px auto;text-align:center;">
+            <img 
+                src="ii.png"
+                alt="Pemeriksaan dan Edukasi Gigi"
+                style="width:100%;height:auto;display:block;border-radius:15px;box-shadow:0 15px 30px rgba(0,0,0,0.25);">
+            
+            <p style="margin-top:20px;line-height:1.8;">
+                Di <strong>Berkah Dental</strong>, kami tidak hanya melakukan
+                pemeriksaan gigi, tetapi juga memberikan edukasi
+                yang jelas dan bermanfaat agar pasien memahami
+                pentingnya menjaga kesehatan gigi dan mulut
+                untuk jangka panjang.
+            </p>
+        </div>
+
+        <a href="index.html" class="btn">← Kembali ke Beranda</a>
+
+    </div>
+</div>
+
+</body>
+</html>

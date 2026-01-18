@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Pencabutan Gigi Permanen | Berkah Dental</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- FONT -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<!-- ICON -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+body{
+    margin:0;
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(135deg,#1f1c2c,#928dab);
+    color:#333;
+}
+.container{
+    max-width:1100px;
+    margin:80px auto;
+    background:#ffffff;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 25px 60px rgba(0,0,0,.35);
+}
+
+/* HERO */
+.hero{
+    position:relative;
+}
+.hero img{
+    width:100%;
+    height:380px;
+    object-fit:cover;
+}
+.hero-overlay{
+    position:absolute;
+    inset:0;
+    background:linear-gradient(to right,rgba(0,0,0,.75),rgba(0,0,0,.25));
+    display:flex;
+    align-items:center;
+    padding:40px;
+}
+.hero-overlay h1{
+    color:#fff;
+    font-size:36px;
+    max-width:650px;
+    line-height:1.3;
+}
+
+/* CONTENT */
+.content{
+    padding:50px;
+}
+.intro{
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:40px;
+}
+
+/* INFO GRID */
+.info-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    margin-bottom:50px;
+}
+.info-box{
+    background:#f9f9f9;
+    border-radius:18px;
+    padding:30px;
+    text-align:center;
+    transition:.3s;
+}
+.info-box:hover{
+    transform:translateY(-6px);
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+.info-box i{
+    font-size:40px;
+    color:#4a00e0;
+    margin-bottom:15px;
+}
+.info-box h3{
+    margin-bottom:10px;
+    color:#333;
+}
+.info-box p{
+    font-size:15px;
+    line-height:1.6;
+}
+
+/* IMAGE SECTION */
+.image-section{
+    max-width:700px;          /* batasi lebar section */
+    margin:40px auto;         /* center */
+    text-align:center;
+}
+
+.image-section img{
+    width:100%;
+    max-width:500px;          /* gambar TIDAK akan kebesaran */
+    height:300px;             /* tinggi rapi */
+    object-fit:cover;         /* potong proporsional */
+    border-radius:18px;
+    box-shadow:0 12px 30px rgba(0,0,0,0.25);
+    margin-bottom:20px;
+}
+
+.image-section p{
+    font-size:16px;
+    line-height:1.8;
+    color:#444;
+}
+
+
+/* BUTTON */
+.btn{
+    display:inline-block;
+    padding:14px 35px;
+    background:linear-gradient(135deg,#8e2de2,#4a00e0);
+    color:#fff;
+    text-decoration:none;
+    border-radius:35px;
+    font-weight:600;
+    transition:.3s;
+}
+.btn:hover{
+    transform:scale(1.05);
+    box-shadow:0 10px 25px rgba(74,0,224,.5);
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+    .hero-overlay h1{
+        font-size:26px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- HERO -->
+    <div class="hero">
+        <img src="ppp.png" alt="Pencabutan Gigi Permanen">
+        <div class="hero-overlay">
+            <h1>Pencabutan Gigi Permanen Aman & Profesional dengan Standar Medis</h1>
+        </div>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="content">
+
+        <p class="intro">
+            <strong>Pencabutan Gigi Permanen (Kasus TTT)</strong> merupakan tindakan
+            perawatan yang dilakukan pada kondisi tertentu, seperti gigi rusak berat,
+            infeksi, atau nyeri yang tidak dapat ditangani dengan perawatan lanjutan.
+            Tindakan ini dilakukan sesuai kewenangan Terapis Gigi dan Mulut.
+        </p>
+
+        <!-- INFO GRID -->
+        <div class="info-grid">
+            <div class="info-box">
+                <i class="fa-solid fa-tooth"></i>
+                <h3>Kondisi Tertentu</h3>
+                <p>Pencabutan dilakukan jika gigi tidak dapat dipertahankan karena kerusakan atau infeksi.</p>
+            </div>
+
+            <div class="info-box">
+                <i class="fa-solid fa-user-shield"></i>
+                <h3>Aman & Terkontrol</h3>
+                <p>Prosedur dilakukan dengan teknik yang tepat, alat steril, dan pengawasan profesional.</p>
+            </div>
+
+            <div class="info-box">
+                <i class="fa-solid fa-heart-circle-check"></i>
+                <h3>Fokus Kenyamanan</h3>
+                <p>Mengutamakan kenyamanan pasien dengan pendekatan yang ramah dan komunikatif.</p>
+            </div>
+        </div>
+
+        <!-- IMAGE SECTION -->
+        <div class="image-section">
+    <img src="pppp.png" alt="Proses Pencabutan Gigi Profesional">
+    <p>
+        Di <strong>Berkah Dental</strong>, pencabutan gigi permanen dilakukan
+        secara profesional oleh terapis gigi berpengalaman, dengan
+        mengutamakan keamanan, kebersihan alat, serta kenyamanan pasien
+        selama proses perawatan.
+    </p>
+</div>
+
+
+        <a href="index.html#layanan" class="btn">← Kembali ke Beranda</a>
+
+    </div>
+</div>
+
+</body>
+</html>
